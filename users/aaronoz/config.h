@@ -26,12 +26,20 @@
 #define QUICK_TAP_TERM 80
 
 // time before a tap turns into a hold. typical usage is 150-220ms, default is 200
-#define TAPPING_TERM 180
+#define TAPPING_TERM 150
 
 // auto shift now works with home-row mods by also using retro shift!
+
+#define RETRO_SHIFT 500 // If RETRO_SHIFT is defined to a value, hold
+                        // times greater than that value will not
+                        // produce a tap on release. This enables
+                        // modifiers to be held for combining with
+                        // mouse clicks without generating taps on
+                        // release.
+
 // allow for mod + autoshift keys (ctl + long a = ctl+shft+a)
 #define AUTO_SHIFT_MODIFIERS
-#define AUTO_SHIFT_TIMEOUT 150
+#define AUTO_SHIFT_TIMEOUT 120
 #define NO_AUTO_SHIFT_SPECIAL // don't autoshift special chars
 //#define NO_AUTO_SHIFT_NUMERIC // don't autoshift number chars
 //#define NO_AUTO_SHIFT_ALPHA // don't autoshift alpha chars
