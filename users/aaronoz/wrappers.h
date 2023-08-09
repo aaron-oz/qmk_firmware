@@ -47,21 +47,21 @@ NOTE: These are all the same length.  If you do a search/replace
 #define _________________COLEMAK_R2________________       KC_M, RCTL_T(KC_N), RALT_T(KC_E),   RGUI_T(KC_I),  RSFT_T(KC_O)
 #define _________________COLEMAK_R3________________       KC_K,        KC_H,         KC_COMM,        KC_DOT,        KC_SLSH
 
-#define _________________NUMBER_L1_________________       KC_NO, KC_TILD,       KC_LCBR, KC_RCBR, KC_COLN
-#define _________________NUMBER_L2_________________       KC_NO, KC_GRV,        KC_LPRN, KC_RPRN, KC_UNDS
-#define _________________NUMBER_L3_________________       KC_NO, LSFT(KC_BSLS), KC_LBRC, KC_RBRC, KC_BSLS
+#define _________________NUMBER_L1_________________       KC_NO,   KC_TILD,       KC_LCBR, KC_RCBR, KC_COLN
+#define _________________NUMBER_L2_________________       KC_UNDS, KC_GRV,        KC_LPRN, KC_RPRN, KC_SCLN
+#define _________________NUMBER_L3_________________       KC_NO,   LSFT(KC_BSLS), KC_LBRC, KC_RBRC, KC_BSLS
 
 #define _________________NUMBER_R1_________________       KC_SCLN, KC_7, KC_8, KC_9, KC_PPLS
-#define _________________NUMBER_R2_________________       KC_EQL,  KC_4, KC_5, KC_6, KC_MINS
-#define _________________NUMBER_R3_________________       KC_0,    KC_1, KC_2, KC_3, KC_DOT
+#define _________________NUMBER_R2_________________       KC_CLN,  KC_4, KC_5, KC_6, KC_MINS
+#define _________________NUMBER_R3_________________       KC_EQL,  KC_1, KC_2, KC_3, KC_DOT
 
-#define _________________SYMBOL_L1_________________       KC_NO, KC_TILD,       KC_LCBR, KC_RCBR, KC_COLN
-#define _________________SYMBOL_L2_________________       KC_NO, KC_GRV,        KC_LPRN, KC_RPRN, KC_UNDS
-#define _________________SYMBOL_L3_________________       KC_NO, LSFT(KC_BSLS), KC_LBRC, KC_RBRC, KC_BSLS
+#define _________________SYMBOL_L1_________________       KC_NO,   KC_TILD,       KC_LCBR, KC_RCBR, KC_COLN
+#define _________________SYMBOL_L2_________________       KC_UNDS, KC_GRV,        KC_LPRN, KC_RPRN, KC_SCLN
+#define _________________SYMBOL_L3_________________       KC_NO,   LSFT(KC_BSLS), KC_LBRC, KC_RBRC, KC_BSLS
 
 #define _________________SYMBOL_R1_________________       KC_SCLN, KC_AMPR, KC_ASTR, KC_BSLS, KC_PPLS
-#define _________________SYMBOL_R2_________________       KC_EQL, KC_DLR,  KC_PERC, KC_CIRC, KC_MINS
-#define _________________SYMBOL_R3_________________       KC_0,    KC_EXLM, KC_AT,   KC_HASH, KC_DOT
+#define _________________SYMBOL_R2_________________       KC_CLN,  KC_DLR,  KC_PERC, KC_CIRC, KC_MINS
+#define _________________SYMBOL_R3_________________       KC_EQL,  KC_EXLM, KC_AT,   KC_HASH, KC_DOT
 
 #define _________________NUMBER_LEFT_______________       KC_1,    KC_2,    KC_3,    KC_4,    KC_5
 #define _________________NUMBER_RIGHT______________       KC_6,    KC_7,    KC_8,    KC_9,    KC_0
